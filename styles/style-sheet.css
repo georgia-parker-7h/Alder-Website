@@ -1,0 +1,23 @@
+.logo {
+    width: 12%;
+    display: inline;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+h1 {
+    font-size: 100px;
+    color: #ffffff;
+}
+
+p {
+    font-size: 60px;
+    color: #DFF3D3;
+    display: inline;
+    font-family: 'shrikhand', cursive;
+    margin-top: 80px;
+    
+    vertical-align: top;
+
+}
