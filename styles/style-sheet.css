@@ -1,23 +1,46 @@
-.logo {
-    width: 12%;
-    display: inline;
-    margin-left: 5%;
-    margin-right: 5%;
-    
+
+body {
+    background-color: black;
+    background-image: url('../images/contour.svg');
+    background-size: cover;
+    background-repeat: repeat;
+    height: 100vh;
+
 }
 
 h1 {
-    font-size: 100px;
-    color: #ffffff;
+    color: #d6dfcc;
+    font-family: shrikhand;
+    
+}
+
+h2 {
+    color: #D6DFCC;
+    font-family: quicksand;
+}
+
+h3 {
+    color: #D6DFCC;
+    font-family: quicksand;
+    font-size: 15px;
 }
 
 p {
-    font-size: 60px;
-    color: #DFF3D3;
-    display: inline;
-    font-family: 'shrikhand', cursive;
-    margin-top: 80px;
-    
-    vertical-align: top;
+    color: #fff;
+    font-family: quicksand;
+}
 
+.insta-holder {
+    size: 50px;
+}
+
+.leaf-logo {
+    width: 3.5vh;
+    height: 3.5vh;
+    padding: 18px 5px 0px 5px;
+
+}
+.nav-text {
+    color: #D6DFCC;
+    font-family: quicksand;
 }

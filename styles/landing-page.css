@@ -1,0 +1,182 @@
+
+@media (max-width: 500px) {
+
+    .landing-page{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto 15vh auto auto 15vh;
+        grid-template-areas: 
+            "nb"
+            "blurb"
+            "insta"
+            "address"
+            "ft";
+       
+    }
+
+    .alder-logo {
+        grid-area: logo;
+        display: none;
+       
+    }
+
+    .nav-bar {
+        grid: nb; 
+       
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+        .leaf-logo {
+            width: 3.5vh;
+            height: 3.5vh;
+            padding: 18px 5px 0px 5px;
+    
+        }
+
+    .main-page-blurb {
+       grid-area: blurb;
+       
+    }
+        .main-page-blurb-1 {
+            text-align: center;
+        }
+
+    .instagram {
+       grid-area: insta;
+       
+    }
+
+    .alder-main-page-info { 
+        grid-area: address;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        .the-boys {
+            width: 100vh;
+            height: auto;  
+            align-self: flex-start;
+        }
+
+        .opening-hours {
+            padding: 0 0 0 30px;
+            font-size: 13px;
+        }
+
+
+    .footer {
+       grid-area: ft;
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       padding-top: 20px;
+    }
+
+        .instagram-logo {
+            width: auto;
+            height: 6vh;
+
+        }
+
+        .facebook-logo {
+           width: auto;
+           height: 9vh;
+
+        }
+
+}
+
+@media (min-width: 501px) {
+
+    .landing-page{
+        display: grid;  
+        grid-template-columns: repeat (3, 1fr);
+        grid-template-rows: 20vh 20vh auto 30vh 15vh;
+        grid-template-areas:
+            ". logo ."
+            "blurb blurb blurb"
+            "insta insta insta"
+            "mpi mpi mpi"
+            "ft ft ft"
+    }
+
+    .alder-logo {
+       grid-area: logo;
+       width: auto;
+       height: 120vh;
+       justify-self: center;
+      
+    }
+
+    .main-page-blurb {
+       grid-area: blurb; 
+       text-align: center;
+    }
+      
+    .instagram {
+       grid-area: insta;
+      
+    }
+
+    .alder-main-page-info {
+       grid-area: mpi;
+      
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       grid-template-rows: 8vh 20vh;
+       grid-template-areas: 
+       "hey hey hey"
+       "address boys hours";
+       justify-content: space-between;
+       align-items: center;
+    }
+        .say-hey {
+            grid-area: hey;
+            text-align: center;
+        }
+
+        .address {
+            grid-area: address;
+        }
+
+        .the-boys {
+            grid-area: boys;
+            justify-self: center;
+            max-width: 80%;
+            max-height: 60%;
+        }
+
+        .opening-hours {
+            grid-area: hours;
+            justify-self: flex-end;
+        }
+
+    .footer {
+       grid-area: ft;
+      
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       align-items: flex-end;
+    }
+
+        .instagram-logo {
+            width: 8vw;
+            height: 6vh;
+        }
+
+        .facebook-logo {
+            width: 15vw;
+            height: 8vh;
+        }
+}
+    
+
+@media (min-width: 1025px) {
+
+
+
+    
+}
